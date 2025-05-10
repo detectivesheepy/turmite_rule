@@ -1,0 +1,74 @@
+// States: 4
+// Colors: 3
+// Moves: L:Left, R:Right, N:None, U:U-Turn, S:Stay
+
+{
+  "0": [
+    {
+      "writeColor": 0,
+      "move": "N",
+      "nextState": 0
+    },
+    {
+      "writeColor": 1,
+      "move": "U",
+      "nextState": 2
+    },
+    {
+      "writeColor": 2,
+      "move": "R",
+      "nextState": 1
+    }
+  ],
+  "1": [
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 1
+    },
+    {
+      "writeColor": 2,
+      "move": "U",
+      "nextState": 2
+    },
+    {
+      "writeColor": 2,
+      "move": "S",
+      "nextState": 0
+    }
+  ],
+  "2": [
+    {
+      "writeColor": 0,
+      "move": "N",
+      "nextState": 1
+    },
+    {
+      "writeColor": 2,
+      "move": "N",
+      "nextState": 2
+    },
+    {
+      "writeColor": 1,
+      "move": "U",
+      "nextState": 2
+    }
+  ],
+  "3": [
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 2
+    },
+    {
+      "writeColor": 2,
+      "move": "N",
+      "nextState": 2
+    },
+    {
+      "writeColor": 2,
+      "move": "L",
+      "nextState": 0
+    }
+  ]
+}
