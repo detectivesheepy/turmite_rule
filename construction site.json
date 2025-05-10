@@ -1,0 +1,114 @@
+// States: 4
+// Colors: 5
+// Moves: L:Left, R:Right, N:None, U:U-Turn, S:Stay
+
+{
+  "0": [
+    {
+      "writeColor": 1,
+      "move": "R",
+      "nextState": 3
+    },
+    {
+      "writeColor": 1,
+      "move": "N",
+      "nextState": 2
+    },
+    {
+      "writeColor": 0,
+      "move": "L",
+      "nextState": 0
+    },
+    {
+      "writeColor": 2,
+      "move": "N",
+      "nextState": 0
+    },
+    {
+      "writeColor": 2,
+      "move": "R",
+      "nextState": 1
+    }
+  ],
+  "1": [
+    {
+      "writeColor": 4,
+      "move": "L",
+      "nextState": 1
+    },
+    {
+      "writeColor": 1,
+      "move": "S",
+      "nextState": 1
+    },
+    {
+      "writeColor": 1,
+      "move": "U",
+      "nextState": 3
+    },
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 1
+    },
+    {
+      "writeColor": 4,
+      "move": "S",
+      "nextState": 2
+    }
+  ],
+  "2": [
+    {
+      "writeColor": 3,
+      "move": "U",
+      "nextState": 1
+    },
+    {
+      "writeColor": 2,
+      "move": "L",
+      "nextState": 0
+    },
+    {
+      "writeColor": 3,
+      "move": "S",
+      "nextState": 0
+    },
+    {
+      "writeColor": 0,
+      "move": "R",
+      "nextState": 2
+    },
+    {
+      "writeColor": 3,
+      "move": "S",
+      "nextState": 0
+    }
+  ],
+  "3": [
+    {
+      "writeColor": 4,
+      "move": "R",
+      "nextState": 2
+    },
+    {
+      "writeColor": 4,
+      "move": "R",
+      "nextState": 2
+    },
+    {
+      "writeColor": 3,
+      "move": "R",
+      "nextState": 0
+    },
+    {
+      "writeColor": 0,
+      "move": "N",
+      "nextState": 1
+    },
+    {
+      "writeColor": 1,
+      "move": "S",
+      "nextState": 2
+    }
+  ]
+}
