@@ -1,0 +1,40 @@
+// States: 2
+// Colors: 3
+// Moves: L:Left, R:Right, N:None, U:U-Turn, S:Stay
+
+{
+  "0": [
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 0
+    },
+    {
+      "writeColor": 2,
+      "move": "S",
+      "nextState": 0
+    },
+    {
+      "writeColor": 0,
+      "move": "L",
+      "nextState": 0
+    }
+  ],
+  "1": [
+    {
+      "writeColor": 2,
+      "move": "L",
+      "nextState": 0
+    },
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 1
+    },
+    {
+      "writeColor": 1,
+      "move": "S",
+      "nextState": 0
+    }
+  ]
+}
