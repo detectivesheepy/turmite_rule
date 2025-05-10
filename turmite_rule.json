@@ -1,0 +1,68 @@
+{
+  "0": [
+    {
+      "writeColor": 1,
+      "move": "U",
+      "nextState": 0
+    },
+    {
+      "writeColor": 2,
+      "move": "L",
+      "nextState": 1
+    },
+    {
+      "writeColor": 3,
+      "move": "N",
+      "nextState": 1
+    },
+    {
+      "writeColor": 0,
+      "move": "R",
+      "nextState": 2
+    }
+  ],
+  "1": [
+    {
+      "writeColor": 2,
+      "move": "U",
+      "nextState": 1
+    },
+    {
+      "writeColor": 2,
+      "move": "R",
+      "nextState": 0
+    },
+    {
+      "writeColor": 3,
+      "move": "N",
+      "nextState": 0
+    },
+    {
+      "writeColor": 1,
+      "move": "L",
+      "nextState": 2
+    }
+  ],
+  "2": [
+    {
+      "writeColor": 0,
+      "move": "L",
+      "nextState": 0
+    },
+    {
+      "writeColor": 1,
+      "move": "R",
+      "nextState": 0
+    },
+    {
+      "writeColor": 0,
+      "move": "L",
+      "nextState": 2
+    },
+    {
+      "writeColor": 0,
+      "move": "U",
+      "nextState": 0
+    }
+  ]
+}
